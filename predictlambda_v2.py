@@ -1,3 +1,24 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 18 22:24:45 2019
+@author: stenatu
+
+Updated on Thu Nov 5 13:19:12 2020 IST
+@author: sufiankaki
+
+# Edit this lambda function which invokes your trained XgBoost Model deployed
+# on the Greengrass Core to make predictions whenever new sensor data comes in
+# The output of the lambda predictins are sent to IoT. If a Faulty part is found,
+# the output is sent to SNS.
+
+# To get this lambda function to work, fill out the TODOs.
+"""
+
+#
+# Copyright 2010-2017 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+#
+
 import logging
 import platform
 import sys
