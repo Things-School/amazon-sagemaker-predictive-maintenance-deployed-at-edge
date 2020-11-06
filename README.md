@@ -207,7 +207,7 @@ The Greengrass service role that you just create is an IAM service role that aut
 aws greengrass get-service-role-for-account --region us-east-1
 
 #associate service role with your account
-aws greengrass associate-service-role-to-account --role-arn arn:aws:iam::<YOUR_AWS_ACCOUNT_ID>:role/Greengrass_ServiceRole
+aws greengrass associate-service-role-to-account --role-arn arn:aws:iam::<YOUR_AWS_ACCOUNT_ID>:role/service-role/Greengrass_ServiceRole
 ```
 
 Now you need to create a Greengrass group role. The Greengrass group role is an AWS Identity and Access Management (IAM) role that authorizes code running on a Greengrass core to access your AWS resources. 
